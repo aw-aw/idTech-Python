@@ -1,6 +1,7 @@
 # Examples taken from https://www.geeksforgeeks.org/turtle-programming-python/
 import turtle
 
+
 def firstTurtle():
     wn = turtle.Screen()
     wn.bgcolor("light green")
@@ -8,6 +9,7 @@ def firstTurtle():
     t = turtle.Turtle()
     t.forward(100)
     t.done()
+
 
 def turtleSquare():
     t = turtle.Turtle()
