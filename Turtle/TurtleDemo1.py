@@ -21,7 +21,6 @@ def turtleSquare():
 
 def turtleStar():
     t = turtle.Turtle()
-    t.right(75)
     t.forward(100)
     for i in range(4):
         t.right(144)
@@ -39,15 +38,6 @@ def turtlePolygon():
     for i in range(num_sides):
         t.forward(side_length)
         t.right(angle)
-
-    turtle.done()
-
-
-def turtleHelix():
-    for i in range(100):
-        turtle.circle(5*i)
-        turtle.circle(-5*i)
-        turtle.left(i)
 
     turtle.done()
 

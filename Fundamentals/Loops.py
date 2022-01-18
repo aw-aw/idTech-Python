@@ -1,5 +1,6 @@
 # Examples taken from https://www.w3schools.com/python/python_for_loops.asp
 
+
 def forEachLoop():
     fruits = ["apple", "banana", "cherry"]
     for fruit in fruits:
@@ -51,3 +52,11 @@ def nestedLoops():
     for adj in adjs:
         for fruit in fruits:
             print(adj, fruit)
+
+
+
+def printName(name1, name2):
+    print(name1, name2)
+
+
+printName("A.W.", "Thomas")
